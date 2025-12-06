@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Salon | Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body class="login-body">
+    <div class="login-box">
+        <h2>Nail Salon</h2>
+        <p>Please log in to your account</p>
+
+        <form>
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="Enter your username">
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Enter your password">
+
+            <label for="role">Role</label>
+            <select id="role" name="role">
+                <option value="" disabled selected>Select your role</option>
+                <option value="customer">Customer</option>
+                <option value="nail-artist">Nail Artist</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <button type="submit">Log In</button>
+
+            <p class="signup-text">
+                Don’t have an account?
+                <a href="signup.html">Create one</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

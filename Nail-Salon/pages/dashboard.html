@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Salon Admin | Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body class="dashboard-body">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <span class="logo-dot"></span>
+            <span class="logo-text">Nail Salon</span>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="customers.html">Customers</a>
+            <a href="appointments.html">Appointments</a>
+            <a href="services.html">Services</a>
+            <a href="technicians.html">Technicians</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <span>Logged in as</span>
+            <strong>Admin</strong>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+        <!-- Top Bar -->
+        <header class="dashboard-header">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Overview of your nail salon activity</p>
+            </div>
+            <div class="user-badge">
+                <span class="user-avatar">A</span>
+                <div class="user-info">
+                    <span class="user-name">Admin User</span>
+                    <span class="user-role">Administrator</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stat Cards -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Customers</h3>
+                <p class="stat-number">128</p>
+                <span class="stat-note">+8 this week</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Today’s Appointments</h3>
+                <p class="stat-number">14</p>
+                <span class="stat-note">3 in progress</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Nail Artists</h3>
+                <p class="stat-number">6</p>
+                <span class="stat-note">2 available now</span>
+            </div>
+
+            <div class="stat-card">
+                <h3>Revenue (Today)</h3>
+                <p class="stat-number">$420</p>
+                <span class="stat-note">Last update: 10:30</span>
+            </div>
+        </section>
+
+        <!-- Latest Appointments Table -->
+        <section class="table-section">
+            <div class="section-header">
+                <h2>Latest Appointments</h2>
+                <a href="appointments.html" class="view-all-link">View all</a>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Service</th>
+                            <th>Nail Artist</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sara Smith</td>
+                            <td>Gel Manicure</td>
+                            <td>Emily</td>
+                            <td>Dec 6, 2025</td>
+                            <td>10:00</td>
+                            <td><span class="badge badge-success">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Anna Lee</td>
+                            <td>Acrylic Refill</td>
+                            <td>Sophia</td>
+                            <td>Dec 6, 2025</td>
+                            <td>11:30</td>
+                            <td><span class="badge badge-warning">In progress</span></td>
+                        </tr>
+                        <tr>
+                            <td>Mary Johnson</td>
+                            <td>Pedicure</td>
+                            <td>Olivia</td>
+                            <td>Dec 6, 2025</td>
+                            <td>13:00</td>
+                            <td><span class="badge badge-info">Upcoming</span></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Brown</td>
+                            <td>French Manicure</td>
+                            <td>Mia</td>
+                            <td>Dec 6, 2025</td>
+                            <td>15:30</td>
+                            <td><span class="badge badge-info">Upcoming</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

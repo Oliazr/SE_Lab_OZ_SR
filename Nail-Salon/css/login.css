@@ -1,0 +1,104 @@
+/* Reset */
+body, h1, h2, p, input, button, label {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Login Page */
+.login-body {
+    background: linear-gradient(135deg, #ffb6c1, #ffcce0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #fff;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+    color: #d63384;
+}
+
+.login-box p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.login-box form {
+    text-align: left;
+}
+
+.login-box label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+}
+
+.login-box input:focus {
+    border-color: #d63384;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #d63384;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.login-box button:hover {
+    background: #c21871;
+}
+.login-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    background-color: #fff;
+}
+
+.login-box select:focus {
+    border-color: #d63384;
+}
+
+.signup-text {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+}
+
+.signup-text a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
